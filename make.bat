@@ -1,5 +1,5 @@
-xelatex SEU_BeamerTemplate &
-xelatex SEU_BeamerTemplate
+xelatex Creation_BeamerDemo &
+xelatex Creation_BeamerDemo
 del *.aux /s
 del *.bak /s
 del *.log /s

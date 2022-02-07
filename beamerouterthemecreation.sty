@@ -3,15 +3,15 @@
 %%%
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{source/seu_background.png}
-\setbeamertemplate{background}{\pgfuseimage{bg}}
+% \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{source/background-night.png}
+% \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 
 
 
 % Footline: AUTHOR | TITLE | DATE FRAMENUMBER
 
-\defbeamertemplate*{footline}{seu theme}{%
+\defbeamertemplate*{footline}{creation theme}{%
   \leavevmode%
   \hbox{%
   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
@@ -29,7 +29,7 @@
   \vskip0pt%
 }
 
-\defbeamertemplate*{headline}{seu theme}{%
+\defbeamertemplate*{headline}{creation theme}{%
   \leavevmode%
   \@tempdimb=6.4375ex%
     %\multiply\@tempdimb by\beamer@sectionmax%
@@ -53,7 +53,7 @@
   \fi%
 }
 
-\defbeamertemplate*{frametitle}{seu theme}{%
+\defbeamertemplate*{frametitle}{creation theme}{%
   \nointerlineskip%
   %\vskip-2pt%
   \hbox{\leavevmode
@@ -89,6 +89,7 @@
     }%
     \hskip-\Gm@rmargin%
   }%
+
 %  \nointerlineskip
 %    \vskip-0.2pt
 %    \hbox to\textwidth{\hskip-\Gm@lmargin\pgfuseshading{beamer@topshade}\hskip-\Gm@rmargin}

@@ -1,8 +1,8 @@
 TeX=xelatex
 
 SEU_BeamerTemplate:
-	$(TeX) SEU_BeamerTemplate
-	$(TeX) SEU_BeamerTemplate
+	$(TeX) Creation_BeamerDemo
+	$(TeX) Creation_BeamerDemo
 
 .PHONY: clean
 

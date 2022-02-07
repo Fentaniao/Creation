@@ -14,3 +14,5 @@ del *.nav /s
 del *.snm /s
 del *.fdb_latexmk /s
 del *.synctex.gz /s
+
+pause
