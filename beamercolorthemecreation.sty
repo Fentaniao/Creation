@@ -21,7 +21,6 @@
 \setbeamercolor{block body} {bg = mica-card}
 \setbeamercolor{block title}{fg = black,bg = mica-title}
 
-
 % \usecolortheme[RGB={182,11,45}]{structure} %Red
 % \usecolortheme[RGB={81,122,52}]{structure} %SEU
 % \setbeamercolor{frametitle}{parent=subsection in head/foot}
@@ -32,7 +31,7 @@
 \setbeamercolor{frametitle}{bg=blue-mid}
 \setbeamercolor{frametitle right}{bg=purple-light}
 
-% \setbeamercolor{section in head/foot}{bg=mica-title}
+
 % \setbeamercolor{background}{bg=blue-deep}
 % \setbeamercolor{canvas}{bg=blue-deep}
 
@@ -40,8 +39,16 @@
   color(0pt)=(frametitle.bg);
   color(\paperwidth)=(frametitle right.bg)}
 
+
+\setbeamercolor{section in head/foot}{bg=blue-mid}
+\setbeamercolor{subsection in head/foot}{bg=blue-deep}
+\setbeamercolor{author in head/foot}{bg=mica-title}
+\setbeamercolor{title in head/foot}{bg=mica-card}
+
+
 \AtBeginDocument{
   \pgfdeclareverticalshading{beamer@topshade}{\paperwidth}{%
     color(0pt)=(bg);
     color(4pt)=(black!50!bg)}
 }
+
